@@ -35,9 +35,9 @@ final as (
         PF.prod_second_orders
     
     from UF 
-    left join PF on PF.product_id = UF.product_id 
-    left join F1 on UF.user_id = F1.user_id 
-    left join F2 on F1.user_id = F2.user_id 
+    inner join PF on PF.product_id = UF.product_id 
+    inner join F1 on UF.user_id = F1.user_id 
+    inner join F2 on F1.user_id = F2.user_id 
 )
 
 select * from final 
