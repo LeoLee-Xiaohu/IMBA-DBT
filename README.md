@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+Welcome to my IMBA DBT project!
 
 ### Using the starter project
 
