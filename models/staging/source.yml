@@ -6,5 +6,5 @@ sources:
     schema: dev
     tables:
       - name: src_orders
-      - name: src_ordproucts
+      - name: src_ordproducts
       - name: src_products
