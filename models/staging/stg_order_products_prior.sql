@@ -1,4 +1,4 @@
--- {{ config(materialized='table') }}
+
 
 with orders as (
  
