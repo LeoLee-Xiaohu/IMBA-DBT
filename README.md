@@ -1,4 +1,6 @@
-Welcome to your new dbt project!
+Welcome to my IMBA DBT project!
+
+The project mainly used DBT, Airflow, Snowflake, S3, and Kenises Firehose.
 
 ### Using the starter project
 
