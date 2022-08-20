@@ -1,6 +1,6 @@
 with p as (
  
-    select * from {{source('src_products') }}
+    select * from {{source('imba','src_products') }}
  
 )
 
