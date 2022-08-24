@@ -5,14 +5,14 @@ models:
     description: "Expectation test for null value"
     columns:
       - name: department_id
-          test:
+          tests:
           - dbt_expectations.expect_column_values_to_be_between
               min_value: 0
               max_value: 25
 
     columns:
       - name: aisle_id
-          test:
+          tests:
           - dbt_expectations.expect_column_values_to_be_between
               min_value: 0
               max_value: 135
